@@ -19,4 +19,8 @@ public class Principal {
 		Compagnie c2= new Compagnie("id2", "RyanAir");
 		System.out.println(c1+"\n"+c2);
 	}
+	public void secondExample(){
+		Vol v1= new Vol("vol747");
+		System.out.println(v1);
+	}
 }
